@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name SW-CUI-INC)(type KiCad)(uri ${KISWGITHUB}/SW-CUI-INC.pretty)(options "")(descr ""))
+  (lib (name SW-Omron)(type KiCad)(uri ${KISWGITHUB}/SW-Omron.pretty)(options "")(descr ""))
+  (lib (name SW-Tensility)(type KiCad)(uri ${KISWGITHUB}/SW-Tensility.pretty)(options "")(descr ""))
+)
