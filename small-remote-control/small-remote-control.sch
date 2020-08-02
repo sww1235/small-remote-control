@@ -149,10 +149,6 @@ Text Label 1650 2850 0    50   ~ 0
 GND
 Text Label 1650 2750 0    50   ~ 0
 MIC
-Wire Wire Line
-	1400 3050 1650 3050
-Wire Wire Line
-	1400 2950 1650 2950
 Text Notes 900  3350 0    50   ~ 0
 CTIA pinout
 Text Notes 8000 4400 0    50   ~ 0
@@ -228,41 +224,12 @@ F 7 "Digikey" H 1200 2850 50  0001 C CNN "Source"
 	1    1200 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:AudioJack4 J2
-U 1 1 5F25F27A
-P 6500 2850
-F 0 "J2" H 6500 3200 50  0000 C CNN
-F 1 "AudioJack4" H 6500 3100 50  0000 C CNN
-F 2 "SW-Tensility:54-00174" H 6500 2850 50  0001 C CNN
-F 3 "https://tensility.s3-us-west-2.amazonaws.com/uploads/product_doc/document/4372/54-00174.pdf" H 6500 2850 50  0001 C CNN
-F 4 "CONN JACK 4COND 3.5MM R/A" H 6500 2850 50  0001 C CNN "Description"
-F 5 "54-00174" H 6500 2850 50  0001 C CNN "MPN"
-F 6 "Tensility International Corp" H 6500 2850 50  0001 C CNN "Manufacturer"
-F 7 "Digikey" H 6500 2850 50  0001 C CNN "Source"
-	1    6500 2850
-	-1   0    0    -1  
-$EndComp
-Text Notes 6350 3300 0    50   ~ 0
-CTIA pinout
-Text Label 6050 3050 2    50   ~ 0
-LEFT
-Text Label 6050 2950 2    50   ~ 0
-RIGHT
-Wire Wire Line
-	6300 3050 6050 3050
-Wire Wire Line
-	6300 2950 6050 2950
-Wire Wire Line
-	5300 2750 6300 2750
-Connection ~ 5300 2750
-Wire Wire Line
-	5300 3650 5700 3650
-Wire Wire Line
-	5700 3650 5700 2850
-Wire Wire Line
-	5700 2850 6300 2850
-Connection ~ 5300 3650
 Wire Wire Line
 	2950 2750 2950 3150
+NoConn ~ 1950 2950
+NoConn ~ 1950 3050
+Wire Wire Line
+	1400 3050 1950 3050
+Wire Wire Line
+	1400 2950 1950 2950
 $EndSCHEMATC
