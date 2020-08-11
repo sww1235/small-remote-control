@@ -26,6 +26,7 @@ F 4 "B3W-1002" H 2950 3350 50  0001 C CNN "MPN"
 F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 2950 3350 50  0001 C CNN "Description"
 F 6 "Omron Electronics Inc-EMC Div" H 2950 3350 50  0001 C CNN "Manufacturer"
 F 7 "Digikey" H 2950 3350 50  0001 C CNN "Source"
+F 8 "SPST MOM NO" H 2950 3350 50  0001 C CNN "Characteristics"
 	1    2950 3350
 	0    -1   1    0   
 $EndComp
@@ -41,6 +42,7 @@ F 4 "B3W-1002" H 3500 3350 50  0001 C CNN "MPN"
 F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 3500 3350 50  0001 C CNN "Description"
 F 6 "Omron Electronics Inc-EMC Div" H 3500 3350 50  0001 C CNN "Manufacturer"
 F 7 "Digikey" H 3500 3350 50  0001 C CNN "Source"
+F 8 "SPST MOM NO" H 3500 3350 50  0001 C CNN "Characteristics"
 	1    3500 3350
 	0    -1   1    0   
 $EndComp
@@ -56,6 +58,7 @@ F 4 "B3W-1002" H 4050 3350 50  0001 C CNN "MPN"
 F 5 "SWITCH TACTILE SPST-NO 0.05A 24V" H 4050 3350 50  0001 C CNN "Description"
 F 6 "Omron Electronics Inc-EMC Div" H 4050 3350 50  0001 C CNN "Manufacturer"
 F 7 "Digikey" H 4050 3350 50  0001 C CNN "Source"
+F 8 "SPST MOM NO" H 4050 3350 50  0001 C CNN "Characteristics"
 	1    4050 3350
 	0    -1   1    0   
 $EndComp
@@ -64,15 +67,15 @@ L Device:R_Small_US R1
 U 1 1 5F254652
 P 3500 2900
 F 0 "R1" H 3530 2920 50  0000 L CNN
-F 1 "267Ω ±0.1%" H 3530 2860 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3500 2900 50  0001 C CNN
-F 3 "~" H 3500 2900 50  0001 C CNN
-F 4 "RES 267 OHM 0.1% 1/10W 0402" H 3500 2900 50  0001 C CNN "Description"
-F 5 "RP73PF1E267RBTD" H 3500 2900 50  0001 C CNN "MPN"
-F 6 "TE Connectivity" H 3500 2900 50  0001 C CNN "Manufacturer"
-F 7 "0402/1005M" H 3500 2900 50  0001 C CNN "Package ID"
+F 1 "267Ω ±0.5%" H 3530 2860 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 2900 50  0001 C CNN
+F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" H 3500 2900 50  0001 C CNN
+F 4 "RES SMD 267 OHM 0.5% 1/16W 0603" H 3500 2900 50  0001 C CNN "Description"
+F 5 "RR0816P-2670-D-42A" H 3500 2900 50  0001 C CNN "MPN"
+F 6 "Susumu" H 3500 2900 50  0001 C CNN "Manufacturer"
+F 7 "0603/1608M" H 3500 2900 50  0001 C CNN "Package ID"
 F 8 "Digikey" H 3500 2900 50  0001 C CNN "Source"
-F 9 "0.1% 1/10W" H 3500 2900 50  0001 C CNN "Characteristics"
+F 9 "0.5% 1/16W" H 3500 2900 50  0001 C CNN "Characteristics"
 	1    3500 2900
 	1    0    0    1   
 $EndComp
@@ -81,15 +84,15 @@ L Device:R_Small_US R2
 U 1 1 5F2548F5
 P 4050 2900
 F 0 "R2" H 4080 2920 50  0000 L CNN
-F 1 "604Ω ±0.1%" H 4080 2860 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4050 2900 50  0001 C CNN
-F 3 "~" H 4050 2900 50  0001 C CNN
-F 4 "RES 604 OHM 0.1% 1/10W 0402" H 4050 2900 50  0001 C CNN "Description"
-F 5 "RP73PF1E604RBTD" H 4050 2900 50  0001 C CNN "MPN"
-F 6 "TE Connectivity" H 4050 2900 50  0001 C CNN "Manufacturer"
-F 7 "0402/1005M" H 4050 2900 50  0001 C CNN "Package ID"
+F 1 "604Ω ±0.5%" H 4080 2860 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 2900 50  0001 C CNN
+F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" H 4050 2900 50  0001 C CNN
+F 4 "RES SMD 604 OHM 0.5% 1/16W 0603" H 4050 2900 50  0001 C CNN "Description"
+F 5 "RR0816P-6040-D-76A" H 4050 2900 50  0001 C CNN "MPN"
+F 6 "Susumu" H 4050 2900 50  0001 C CNN "Manufacturer"
+F 7 "0603/1608M" H 4050 2900 50  0001 C CNN "Package ID"
 F 8 "Digikey" H 4050 2900 50  0001 C CNN "Source"
-F 9 "0.1% 1/10W" H 4050 2900 50  0001 C CNN "Characteristics"
+F 9 "0.5% 1/16W" H 4050 2900 50  0001 C CNN "Characteristics"
 	1    4050 2900
 	1    0    0    1   
 $EndComp
@@ -169,15 +172,15 @@ L Device:R_Small_US R3
 U 1 1 5F27B8E6
 P 4350 3200
 F 0 "R3" H 4380 3220 50  0000 L CNN
-F 1 "2k21Ω ±0.1%" H 4380 3160 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4350 3200 50  0001 C CNN
-F 3 "~" H 4350 3200 50  0001 C CNN
-F 4 "TE Connectivity" H 4350 3200 50  0001 C CNN "Manufacturer"
-F 5 "0402/1005M" H 4350 3200 50  0001 C CNN "Package ID"
+F 1 "2k2Ω ±0.5%" H 4380 3160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4350 3200 50  0001 C CNN
+F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" H 4350 3200 50  0001 C CNN
+F 4 "Susumu" H 4350 3200 50  0001 C CNN "Manufacturer"
+F 5 "0603/1608M" H 4350 3200 50  0001 C CNN "Package ID"
 F 6 "Digikey" H 4350 3200 50  0001 C CNN "Source"
-F 7 "RP73PF1E2K21BTD" H 4350 3200 50  0001 C CNN "MPN"
-F 8 "RES 2.21K OHM 0.1% 1/10W 0402" H 4350 3200 50  0001 C CNN "Description"
-F 9 "0.1% 1/10W" H 4350 3200 50  0001 C CNN "Characteristics"
+F 7 "RR0816P-222-D" H 4350 3200 50  0001 C CNN "MPN"
+F 8 "RES SMD 2.2K OHM 0.5% 1/16W 0603" H 4350 3200 50  0001 C CNN "Description"
+F 9 "0.5% 1/16W" H 4350 3200 50  0001 C CNN "Characteristics"
 	1    4350 3200
 	1    0    0    1   
 $EndComp
